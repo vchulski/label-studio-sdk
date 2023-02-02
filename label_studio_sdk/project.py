@@ -1642,10 +1642,8 @@ class Project(Client):
         self,
         users: List[int],
         assign_function: Callable,
-        view_id: int = None,
-        method: AssignmentSamplingMethod = AssignmentSamplingMethod.RANDOM,
-        fraction: float = 1.0,
-        overlap: int = 1,
+        view_id: int = None,      method: AssignmentSamplingMethod = AssignmentSamplingMethod.RANDOM,
+        fraction: float = 1.0,    overlap: int = 1,
     ):
         """
         Assigning tasks to Reviewers or Annotators by assign_function with method by fraction from view_id
