@@ -35,7 +35,10 @@ class Client(object):
     def __init__(
         self,
         url,
-        api_key,         credentials=None,         session=None,         extra_headers: dict = None,
+        api_key,
+        credentials=None,
+        session=None,
+        extra_headers: dict = None,
         cookies: dict = None,
         oidc_token=None,
     ):
